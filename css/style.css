@@ -1,0 +1,62 @@
+/* global */
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+}
+
+.nav-ul > li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.burgerbar {
+    display: none;
+}
+
+/* section */
+.s-2-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.titles {
+    width: 240px;
+}
+
+.titles > h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.titles > h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    max-width: 870px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.card-head > img {
+    width: 100%;
+}
